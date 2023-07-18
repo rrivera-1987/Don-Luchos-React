@@ -16,8 +16,8 @@ const HomePage = () => {
                         <p className="text-black">Embark on a culinary journey inspired by the vibrant flavors of Peru. At Don Lucho's Pollo a la Brasa, 
                         we invite you to savor the rich heritage of our family-owned establishment. Named as an homage to my Peruvian father-in-law, our restaurant 
                         combines traditional recipes passed down through generations with a modern twist. Each dish is crafted with love and care, showcasing the authentic taste of Peru. 
-                        Join us and experience the warmth of Peruvian hospitality and the irresistible delights of our kitchen. Don Lucho's, where every meal tells a story.</p>
-                        <Link to='/about' style={{ borderRadius: '80%', width: '140px', height: '57px' }} className='btn btn-dark btn-xl oval-button'>Find Out More</Link>
+                        Join us and experience the warmth of Peruvian hospitality and the irresistible delights of our kitchen. Don Lucho's, where every meal tells a story.</p>                  
+                        <Link to='/about' style={{ borderRadius: '80%', width: '140px', height: '57px' }} className='btn btn-dark btn-xl oval-button'>Find Out More</Link>                 
                     </div>
                 </div>
             </div>
