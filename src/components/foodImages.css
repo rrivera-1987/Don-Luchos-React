@@ -1,0 +1,44 @@
+/* CSS for the food-image-row */
+.food-image-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* CSS for the food-image-container */
+  .food-image-container {
+    flex: 4 4 30%; /* Adjust the width to your desired size */
+    position: relative;
+    margin-bottom: 20px; /* Add some spacing between the images */
+  }
+  
+  /* CSS for the image overlay and text */
+  .image-overlay {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-overlay img {
+    transition: opacity 0.3s ease;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-overlay:hover img {
+    opacity: 0.8;
+  }
+  
+  .image-overlay:hover .image-text {
+    opacity: 1;
+  }
